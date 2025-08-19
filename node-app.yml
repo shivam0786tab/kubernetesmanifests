@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name : node-app
-          image: shiv0786/web-app:10
+          image: shiv0786/web-app:20
           env:
             - name : MONGO_HOST
               valueFrom:
